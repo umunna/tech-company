@@ -1,0 +1,177 @@
+* {
+   box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  span {
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  body {
+    background: #0b0b0b;
+    -webkit-perspective: 1px;
+            perspective: 1px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    cursor: pointer;
+  }
+
+  body header {
+    background: #313132;
+    position: relative;
+}
+
+body header nav {
+    width: 70%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: none;
+  }
+
+  body header nav li {
+    list-style-type: none;
+    color: white;
+    font-size: 12px;
+    opacity: 0.8;
+  }
+
+  body .kon img {
+    width: 100%;
+    border: none;
+  }
+
+  body .bon video {
+    width: 100%;
+    border: none;
+    
+  }
+
+  body .kon_txt {  
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2.2rem;
+  }
+  
+  body .kon_txt h1 {
+    color: white;
+    font-size: 5.8em;
+    line-height: 6rem;
+    font-weight: 600;
+  }
+  
+  body .kon_txt p {
+    color: #86868b;
+    width: 66%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 2rem;
+    border: none;
+  }
+  
+  body .kon_txt .span {
+    font-size: 21px;
+    font-weight: 600;
+  }
+  
+  
+  body .ban {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 0 auto;
+    gap: 3rem;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 10rem;
+  }
+  
+  body .ban h1 {
+    color: white;
+    font-size: 4.8em;
+    line-height: 6rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+  
+.g_o_1_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    opacity: 0.9;
+  }
+  
+  .on3 {
+    color: #ad68ff;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: -webkit-gradient(linear, left top, right top, from(#e1cdff), color-stop(40%, #ad68ff), to(#9d4dff));
+    background-image: linear-gradient(90deg, #e1cdff, #ad68ff 40%, #9d4dff);
+  }
+  
+  
+  .on2 {
+    color: #c27023;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ccefff), color-stop(40%, #c27023), to(#ff9b3d));
+    background-image: linear-gradient(90deg, #ac7d3f, #c27023 40%, #ff9b3d);
+  }
+
+.on4 {
+    color: #3681e2;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ccefff), color-stop(40%, #60cafc), to(#3d71ff));
+    background-image: linear-gradient(90deg, #ccefff, #60cafc 40%, #3d71ff);
+    flex-basis:50px;
+    
+  }
+
+body .ban p {
+    color: #86868b;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 1.3em;
+    width: 70%;
+  }
+
+  .copyright{
+    font-family: 'Monteserrat', sans-serif;
+    background-color:#0b0b0b;
+    color: #EAF6F6;
+    position: absolute;
+    text-align: center;
+    font-size: 0.3rem;
+    line-height: 20px;
+    bottom:0;
+  }
+
