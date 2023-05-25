@@ -1,4 +1,4 @@
-# Rondo-tech-company
+# Rondo-Tech-Company
 https://umunna.github.io/tech-company/
 
 
